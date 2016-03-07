@@ -261,9 +261,9 @@
     \chapter*{\centerline{\contentsname
         \@mkboth{
            \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}}
-           \rule{45em}{0.5pt}\\[6pt]
+           \rule{50em}{0.5pt}\\[6pt]
 \textbf{Contents}\hfill\textbf{Page No.}\\
-\rule{45em}{0.5pt}
+\rule{50em}{0.5pt}
     \@starttoc{toc}
     \if@restonecol\twocolumn\fi
    \cleardoublepage}
@@ -284,9 +284,9 @@
     \chapter*{\centerline{\listfigurename
       \@mkboth{\MakeUppercase\listfigurename}
               {\MakeUppercase\listfigurename}}}
-              \rule{39em}{0.5pt}\\[6pt]
+              \rule{50em}{0.5pt}\\[6pt]
 \textbf{Figure No.}\hfill\textbf{Figure Description}\hfill\textbf{Page No.}\\
-\rule{39em}{0.5pt}
+\rule{50em}{0.5pt}
     \@starttoc{lof}
     \if@restonecol\twocolumn\fi
     \cleardoublepage}
@@ -307,9 +307,9 @@
     \chapter*{\centerline{\listtablename
       \@mkboth{
           \MakeUppercase\listtablename}{\MakeUppercase\listtablename}}}
-          \rule{39em}{0.5pt}\\[6pt]
+          \rule{50em}{0.5pt}\\[6pt]
 \textbf{Table No.}\hfill\textbf{Table Description}\hfill\textbf{Page No.}\\
-\rule{39em}{0.5pt}
+\rule{50em}{0.5pt}
     \@starttoc{lot}
     \if@restonecol\twocolumn\fi
     \cleardoublepage}
