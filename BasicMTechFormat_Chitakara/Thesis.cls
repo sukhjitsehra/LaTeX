@@ -228,48 +228,6 @@
     \vfil\null
   \cleardoublepage
   \end{titlepage}
-
-
-
-%\newcommand\maketitlepagetwo{
-%  \btypeout{Title Page}
-%  \hypersetup{pdftitle={\topicname}}
-%  \hypersetup{pdfsubject=\subjectname}
-%  \hypersetup{pdfauthor=\studentname}
-%  \thispagestyle{empty}
-%  \begin{titlepage}  
-%    \let\footnotesize\small
-%    \let\footnoterule\relax
-%    \let \footnote \thanks
-%    \setcounter{footnote}{0}
-%    \begin{center}
-%        \setlength\fboxrule{1pt}\setlength\fboxsep{3mm}
-%     {\Huge \textbf{\sc \topicname} }
-%        \vskip 3mm
-%       {\Large \bfseries{ \scshape{\subjectname}} \par}
-%        \vskip 3mm
-%     {\large {SUBMITTED IN PARTIAL FULFILLMENT REQUIREMENT FOR THE AWARD OF DEGREE OF } \par}
-% \vskip 2.5mm
-%      {\Large \bfseries{ \scshape{\degreename}} \\}
-%    {\Large {\sc (\deptname)} \par}
-%        \vskip 3mm
-%      {\large {\sc SUBMITTED BY} \\}
-%        {\Large \textbf{\sc \studentname} \\}
-%        {\large {\sc (UNIVERSITY ROLL No. \sc \uniroll) } \\}
-%        \vskip 3mm 
-%      {\Large \sc{July, 2014} }
-%          \vskip 8mm
-%       {\large \bfseries{ \scshape{GURU NANAK DEV ENGINEERING COLLEGE }} }
-%        {\large {\sc LUDHIANA-141006 } \\}
-%         \vskip 17mm
-%       
-%  {\Large {\univname} \par}
-%    \end{center}
-%    \par
-%    \@thanks
-%    \vfil\null
-%  \cleardoublepage
-%  \end{titlepage}
   \setcounter{footnote}{0}%
   \global\let\thanks\relax
   \global\let\maketitlepagetwo\relax
@@ -303,7 +261,7 @@
     \chapter*{\centerline{\contentsname
         \@mkboth{
            \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}}
-           \rule{39em}{0.5pt}\\[6pt]
+           \rule{50em}{0.5pt}\\[6pt]
 \textbf{Contents}\hfill\textbf{Page No.}\\
 \rule{39em}{0.5pt}
     \@starttoc{toc}
