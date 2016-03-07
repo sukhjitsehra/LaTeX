@@ -263,7 +263,7 @@
            \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}}
            \rule{50em}{0.5pt}\\[6pt]
 \textbf{Contents}\hfill\textbf{Page No.}\\
-\rule{39em}{0.5pt}
+\rule{50em}{0.5pt}
     \@starttoc{toc}
     \if@restonecol\twocolumn\fi
    \cleardoublepage}
