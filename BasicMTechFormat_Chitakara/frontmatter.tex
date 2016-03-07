@@ -1,0 +1,78 @@
+
+
+\frontmatter 
+
+%%  TITLE PAGE
+
+\subject{THESIS}
+\topic{your thesis title}
+\degree{Master of Technology}
+\guides{Sukhjit Singh Sehra}
+\guidedesignation{Assistant Professor}
+\guidedeaprtment{Computer Science \& Engineering}
+%\guides     {}
+\student{Gitanjali Gupta}
+\department{Department Computer Science \& Engineering}
+\uniroll{1232434}
+\college{School of Computer Science }{Rajpura Road Road,}{Rajpura-121123}
+\university{Chitkara University}{(PUNJAB), INDIA}
+\date{January, 2016}
+
+\maketitle
+
+\maketitlepagetwo
+
+
+% CERTIFICATE
+
+\input{./FrontMatter/Certificate}
+\addcontentsline{toc}{chapter}{CANDIDATE'S DECLARATION}
+%\cleardoublepage
+
+
+% ABSTRACT
+
+
+\input{./FrontMatter/Abstract}
+\addcontentsline{toc}{chapter}{\textit{ABSTRACT}}
+%\cleardoublepage
+
+
+% ACKNOWLEDGEMENTS
+
+
+\input{./FrontMatter/Acknowledgement}
+\addcontentsline{toc}{chapter}{\textit{ACKNOWLEDGEMENTS}}
+%\cleardoublepage
+
+
+%% LIST OF FIGURES
+
+
+\listoffigures
+\addcontentsline{toc}{chapter}{\textit{\listfigurename}}
+
+% LIST OF TABLES
+
+
+\listoftables
+\addcontentsline{toc}{chapter}{\textit{\listtablename}}
+
+
+
+
+\input{FrontMatter/acronym}
+\printglossary[type=\acronymtype,nonumberlist]
+\addcontentsline{toc}{chapter}{\textit{ABBREVIATIONS}}
+
+
+\input{FrontMatter/nomeclature}
+\printnomenclature
+\addcontentsline{toc}{chapter}{\textit{NOMENCLATURE}}
+
+
+
+\singlespacing
+\tableofcontents
+\addcontentsline{toc}{chapter}{\textit{\contentsname}}
+\doublespacing

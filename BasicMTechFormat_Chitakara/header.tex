@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt,oneside]{Thesis}
+%\usepackage{hyperref}
+%\hypersetup{urlcolor=blue, colorlinks=true}
+\usepackage[square,numbers]{natbib}
+\usepackage{setspace}
+\usepackage{verbatim}
+
+
+
+% %==================================Following has been to create two different formats for pdf Printing and Screen reading. Use anyone of following 
+%\usepackage[print,nopanel]{pdfscreen}
+%%\usepackage[screen]{pdfscreen}
+%\margins{1in}{1in}{.5in}{.3in}
+%\screensize{6in}{8in}
+\usepackage[monochrome]{color}
+% %========================================
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[compact]{titlesec}
+\usepackage[acronym]{glossaries}
+
+		
+\makeglossaries
+
+
+\usepackage{nomencl}
+\makenomenclature
+\usepackage{imakeidx}
+\makeindex[columns=3, title=Alphabetical Index, intoc]
+
+\renewcommand*{\bibname}{REFERENCES}
+\renewcommand*{\acronymname}{ABBREVIATIONS}
+
+\renewcommand*{\nomname}{NOMENCLATURE}
+
+\newcommand*{\justifyheading}{\raggedleft}
+
+\titleformat{\chapter}[display]{\fontsize{16pt}{0em}\selectfont\bf\justifyheading}{\chaptertitlename\  \thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{0pt}{15pt}
+
+\titleformat{\section}
+  {\normalfont\fontsize{14}{16}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\fontsize{12}{14}\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{12}{14}\selectfont}{\thesubsubsection}{1em}{}
+  
+% %For Centering the Name of Table of contents. list of figure, list of tables etc
+
+
+
+
+\makeindex

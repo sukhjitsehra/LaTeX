@@ -1,0 +1,3 @@
+\renewcommand *\addvspace [1]{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

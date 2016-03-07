@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{graphicx} %package to manage images
+\graphicspath{ {images/} }
+\usepackage[rightcaption]{sidecap}
+\usepackage{wrapfig}
+\title{Exercise - Inserting figure}
+\author{H.S.Rai and S.S.Sehra}
+\date{19th January, 2016}
+\begin{document}
+	\maketitle	
+	\section*{Tasks to be performed}
+	\begin{enumerate}	
+		\item Insert a new figure from images folder to this document.
+	\end{enumerate}
+	\section*{Demonstration}
+	% graphicx package is used in the preamble of the document to insert figures
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{../../images/gnelogo}
+\caption{}
+\label{fig:gnelogo}
+\end{figure}
+\end{document}

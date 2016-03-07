@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\title{Exercise - Inserting Footnotes}
+\author{H.S.Rai and S.S.Sehra}
+\date{19th January, 2016}
+\begin{document}
+	\maketitle	
+	\section*{Tasks to be performed}
+	\begin{enumerate}	
+		\item Insert more footnotes in different styles.
+	\end{enumerate}
+	\section*{Demonstration}
+
+\section{Introduction}
+%Basic footnote commands
+%------------------------------------------------------------------
+I'm writing something here to test \footnote{footnotes working fine} several features. You can write the footnote text\footnotemark in its own line.
+
+\footnotetext{Second footnote}
+%------------------------------------------------------------------
+
+%Footnote with multiple references
+%------------------------------------------------------------------
+For instance\footnotemark I can use the same footnote more than once\footnotemark[\value{footnote}].
+
+\footnotetext{footnote with two references} 
+%------------------------------------------------------------------
+
+%------------------------------------------------------------------
+\end{document}

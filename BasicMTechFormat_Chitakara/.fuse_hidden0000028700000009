@@ -1,0 +1,30 @@
+\gdef \the@ipfilectr {@-1}
+\contentsline {chapter}{\textit {Candidate's Declaration}}{i}{dummy.2}
+\contentsline {chapter}{\textit {Abstract}}{ii}{dummy.4}
+\contentsline {chapter}{\textit {Acknowledgement}}{iii}{dummy.6}
+\contentsline {chapter}{\textit {List of Figures}}{iv}{dummy.8}
+\contentsline {chapter}{\textit {List of Tables}}{v}{dummy.10}
+\contentsline {chapter}{\textit {List of Abbreviations}}{vi}{dummy.12}
+\contentsline {chapter}{\textit {Nomenclature}}{vi}{dummy.14}
+\contentsline {chapter}{\textit {Table of Contents}}{vii}{dummy.16}
+\gdef \the@ipfilectr {}
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.18}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.19}
+\contentsline {section}{\numberline {1.2}Hot Spots}{2}{section.20}
+\contentsline {section}{\numberline {1.3}Crime Hot Spots}{2}{section.21}
+\contentsline {section}{\numberline {1.4}GIS and Crime mapping}{3}{section.22}
+\contentsline {chapter}{\numberline {2}LITERATURE SURVEY}{4}{chapter.23}
+\contentsline {chapter}{\numberline {3}PRESENT WORK}{5}{chapter.24}
+\contentsline {section}{\numberline {3.1}Problem Formulation}{5}{section.25}
+\contentsline {section}{\numberline {3.2}Design and Implementation}{5}{section.26}
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSIONS}{6}{chapter.27}
+\contentsline {section}{\numberline {4.1}Results}{6}{section.28}
+\contentsline {section}{\numberline {4.2}Discussion}{6}{section.29}
+\contentsline {chapter}{\numberline {5}CONCLUSION AND FUTURE SCOPE}{7}{chapter.30}
+\contentsline {section}{\numberline {5.1}Conclusion}{7}{section.31}
+\contentsline {section}{\numberline {5.2}Future Scope}{7}{section.32}
+\contentsline {chapter}{Bibliography}{8}{dummy.33}
+\gdef \the@ipfilectr {@-2}
+\contentsline {chapter}{Appendix A }{9}{appendix*.35}
+\vspace {2em}
+\gdef \the@ipfilectr {}

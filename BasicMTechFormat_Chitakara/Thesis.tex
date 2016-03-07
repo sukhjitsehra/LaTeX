@@ -1,0 +1,41 @@
+% arara: pdflatex 
+% arara: makeglossaries 
+% arara: nomencl
+% arara: makeindex
+% arara: pdflatex 
+% arara: pdflatex 
+
+\include{header}
+  
+\begin{document}
+
+\include{frontmatter}
+
+\mainmatter	
+
+%   THESIS CHAPTERS
+\input{./Chapter1/Chapter1}                      % BRIEF HELP - Remove this Chapter at the time of 
+%\input{./Chapter2/Chapter2}                        % LITERATURE SURVEY
+%\input{./Chapter3/Chapter3}                        % PROBLEM FORMULATION
+%\input{./Chapter4/Chapter4}                        % IMPLEMENTATION
+%\input{./Chapter5/Chapter5}                        % RESULTS & DISCUSSIONS
+
+
+\backmatter
+
+%Refernecex
+\bibliographystyle{IEEEtranN}
+\bibliography{Thesis}
+\addcontentsline{toc}{chapter}{References}
+
+
+%   APPENDICES
+\include{appendices}
+
+%   INDEX
+
+
+%\lhead{\emph{INDEX}}
+\printindex
+
+\end{document} 
