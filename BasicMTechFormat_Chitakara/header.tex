@@ -30,15 +30,15 @@
 
 \usepackage{nomencl}
 \makenomenclature
-\setlength\nomlabelwidth{1.5cm}
+
 \usepackage{imakeidx}
 \makeindex[columns=3, title=Thesis Index, intoc]
 
 \renewcommand*{\bibname}{REFERENCES}
 %\renewcommand*{\acronymname}{ABBREVIATIONS}
 
-\renewcommand*{\nomname}{NOMENCLATURE}
-
+%\renewcommand*{\nomname}{NOMENCLATURE}
+\renewcommand{\nomname}{\makebox[\linewidth]{List of Symbols}}%
 \newcommand*{\justifyheading}{\raggedleft}
 
 \titleformat{\chapter}[display]{\fontsize{16pt}{0em}\selectfont\bf\justifyheading}{\chaptertitlename\  \thechapter}{1em}{}
