@@ -1,0 +1,24 @@
+% arara: pdflatex 
+% arara: makeindex
+% arara: pdflatex 
+% arara: pdflatex 
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{imakeidx}
+%\makeindex
+\makeindex[title= Generated Index, columns=2,intoc]
+
+
+\title{Exercise - Working with Glossaries, Nomenclature and index}
+\date{12th March, 2016}
+\author{H.S.Rai, J. Singh and S.S.Sehra}
+\begin{document}
+
+\maketitle
+
+\LaTeX\ \index{\LaTeX} is used in for making index. This content will help you in understanding making \index{index}.
+
+\printindex
+
+\end{document}

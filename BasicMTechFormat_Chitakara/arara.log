@@ -1,20 +1,20 @@
-07 Mar 2016 20:18:19.465 INFO  Arara - Welcome to arara!
-07 Mar 2016 20:18:19.505 INFO  Arara - Processing file 'Thesis.tex', please wait.
-07 Mar 2016 20:18:19.518 INFO  DirectiveExtractor - Reading directives from Thesis.tex.
-07 Mar 2016 20:18:19.534 TRACE DirectiveExtractor - Directive found in line 1 with pdflatex.
-07 Mar 2016 20:18:19.535 TRACE DirectiveExtractor - Directive found in line 2 with makeglossaries.
-07 Mar 2016 20:18:19.536 TRACE DirectiveExtractor - Directive found in line 3 with nomencl.
-07 Mar 2016 20:18:19.536 TRACE DirectiveExtractor - Directive found in line 4 with makeindex.
-07 Mar 2016 20:18:19.537 TRACE DirectiveExtractor - Directive found in line 5 with pdflatex.
-07 Mar 2016 20:18:19.538 TRACE DirectiveExtractor - Directive found in line 6 with pdflatex.
-07 Mar 2016 20:18:19.553 INFO  DirectiveParser - Parsing directives.
-07 Mar 2016 20:18:19.556 INFO  TaskDeployer - Deploying tasks into commands.
-07 Mar 2016 20:18:19.556 TRACE TaskDeployer - Task 'pdflatex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
-07 Mar 2016 20:18:19.929 TRACE TaskDeployer - Task 'makeglossaries' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
-07 Mar 2016 20:18:19.971 TRACE TaskDeployer - Task 'nomencl' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
-07 Mar 2016 20:18:19.987 TRACE TaskDeployer - Task 'makeindex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
-07 Mar 2016 20:18:19.992 TRACE TaskDeployer - Task 'pdflatex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
-07 Mar 2016 20:18:19.998 TRACE TaskDeployer - Task 'pdflatex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
-07 Mar 2016 20:18:20.005 INFO  CommandTrigger - Ready to run commands.
-07 Mar 2016 20:18:20.007 INFO  CommandTrigger - Running 'PDFLaTeX'.
-07 Mar 2016 20:18:20.008 TRACE CommandTrigger - Command: pdflatex      "Thesis.tex"
+08 Mar 2016 15:04:38.537 INFO  Arara - Welcome to arara!
+08 Mar 2016 15:04:38.542 INFO  Arara - Processing file 'Thesis.tex', please wait.
+08 Mar 2016 15:04:38.546 INFO  DirectiveExtractor - Reading directives from Thesis.tex.
+08 Mar 2016 15:04:38.548 TRACE DirectiveExtractor - Directive found in line 1 with pdflatex.
+08 Mar 2016 15:04:38.549 TRACE DirectiveExtractor - Directive found in line 2 with makeglossaries.
+08 Mar 2016 15:04:38.550 TRACE DirectiveExtractor - Directive found in line 3 with nomencl.
+08 Mar 2016 15:04:38.551 TRACE DirectiveExtractor - Directive found in line 4 with makeindex.
+08 Mar 2016 15:04:38.551 TRACE DirectiveExtractor - Directive found in line 5 with pdflatex.
+08 Mar 2016 15:04:38.552 TRACE DirectiveExtractor - Directive found in line 6 with pdflatex.
+08 Mar 2016 15:04:38.558 INFO  DirectiveParser - Parsing directives.
+08 Mar 2016 15:04:38.562 INFO  TaskDeployer - Deploying tasks into commands.
+08 Mar 2016 15:04:38.562 TRACE TaskDeployer - Task 'pdflatex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:04:38.720 TRACE TaskDeployer - Task 'makeglossaries' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:04:38.754 TRACE TaskDeployer - Task 'nomencl' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:04:38.762 TRACE TaskDeployer - Task 'makeindex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:04:38.767 TRACE TaskDeployer - Task 'pdflatex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:04:38.773 TRACE TaskDeployer - Task 'pdflatex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:04:38.778 INFO  CommandTrigger - Ready to run commands.
+08 Mar 2016 15:04:38.779 INFO  CommandTrigger - Running 'PDFLaTeX'.
+08 Mar 2016 15:04:38.779 TRACE CommandTrigger - Command: pdflatex      "Thesis.tex"

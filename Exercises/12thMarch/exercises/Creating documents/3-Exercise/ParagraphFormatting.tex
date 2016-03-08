@@ -1,0 +1,65 @@
+\documentclass{article}
+%\usepackage[utf8]{inputenc}
+%\usepackage{ragged2e}
+\title{Exercise - Basic Formatting}
+\author{H.S.Rai J.Singh and S.S.Sehra}
+\date{12th March, 2016}
+\begin{document}
+\maketitle
+\section*{Tasks to be performed}
+
+\begin{enumerate}
+\item Add paragraphs in the text by using  \textbackslash newline and \textbackslash par command.
+
+\item Use different alignments in  the paragraphs.
+
+\item  Add no indented and indented paragraphs.
+\end{enumerate}
+
+
+
+%-------------------------------------------------------------------------------
+\section*{Demonstration}
+\begin{center}
+Example 1: The following paragraph (given in quotes) is an example of Center Alignment using the center environment. 
+
+``LaTeX is a document preparation system and document markup language. LaTeX uses the TeX typesetting program for formatting its output, and is itself written in the TeX macro language. LaTeX is not the name of a particular editing program, but refers to the encoding or tagging conventions that are used in LaTeX documents".
+\end{center}
+
+%Example of the New Paragraphs section. The second
+%Paragraph has no indentation
+\setlength{\parindent}{10ex}
+
+This is the text in first paragraph. This is the text in first 
+paragraph. This is the text in first paragraph. \par
+\noindent %The next paragraph is not indented
+This is the text in second paragraph. This is the text in second 
+paragraph. This is the text in second paragraph.
+
+%Example of a left justified alignement
+
+\begin{flushleft}
+``LaTeX is a document preparation system and document markup language. LaTeX uses the TeX typesetting program for formatting its output, and is itself written in the TeX macro language. LaTeX is not the name of a particular editing program, but refers to the encoding or tagging conventions that are used in LaTeX documents".
+\end{flushleft}
+
+%Example of a right-justified text
+\begin{flushright}
+``LaTeX is a document preparation system and document markup language. LaTeX uses the TeX typesetting program for formatting its output, and is itself written in the TeX macro language. LaTeX is not the name of a particular editing program, but refers to the encoding or tagging conventions that are used in LaTeX documents".
+\end{flushright}
+
+%-------------------------------------------------------------------------------
+%Using \usepackage{ragged2e} and  \raggedright to left-justify the text and then \justifying to "fix it"
+\raggedleft
+Example 4: Following is an example of switching back to justified text after ragged text has been switched on.
+
+
+
+``\LaTeX\ is a document preparation system and document markup language. \LaTeX\ uses the \TeX\ typesetting program for formatting its output, and is itself written in the \TeX\ macro language. \LaTeX\ is not the name of a particular editing program, but refers to the encoding or tagging conventions 
+that are used in LaTeX documents".
+
+%Line breaks and blank spaces
+\newpage
+LaTeX is a document preparation system and document markup language. \\  LaTeX uses the TeX typesetting \hspace{2cm} program for formatting its output, and is itself written in the TeX macro language. LaTeX \vspace{1cm} is not the name of a particular editing program, but refers to the encoding or tagging conventions that are used in LaTeX documents
+%-------------------------------------------------------------------------------
+\end{document}
+

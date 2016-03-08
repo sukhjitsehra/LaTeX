@@ -1,0 +1,46 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{titlesec}
+ 
+\titleformat
+{\chapter} % command
+[frame] % shape
+{\bfseries\Large} % format
+{ Chapter No.\ \thechapter } % label
+{0.5ex} % sep
+{
+    \rule{\textwidth}{1pt}
+    \vspace{2ex}
+    \centering
+} % before-code
+[
+\vspace{-0.5ex}%
+\rule{\textwidth}{0.3pt}
+] % after-code
+ 
+ 
+\titleformat{\section}[wrap]
+{\normalfont\bfseries}
+{\thesection.}{0.5em}{}
+ 
+\titlespacing{\section}{12pc}{1.5ex plus .1ex minus .2ex}{1pc}
+\title{Changing the Format/appearance of Part, Chapter,section }
+\author{H.S.Rai, J. Singh and S.S.Sehra}
+\date{12th March, 2016}
+\begin{document}
+\maketitle
+ 
+\chapter{Let's begin}
+ 
+\section{First Attempt}
+ 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+enim ad minim veniam, quis nostrud exercitation ullamco laboris...
+ 
+\section{Second attempt}
+ 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+enim ad minim veniam, quis nostrud exercitation ullamco laboris...
+ 
+\end{document}

@@ -1,0 +1,128 @@
+08 Mar 2016 15:43:13.732 INFO  Arara - Welcome to arara!
+08 Mar 2016 15:43:13.761 INFO  Arara - Processing file 'nomenclature.tex', please wait.
+08 Mar 2016 15:43:13.786 INFO  DirectiveExtractor - Reading directives from nomenclature.tex.
+08 Mar 2016 15:43:13.801 TRACE DirectiveExtractor - Directive found in line 1 with pdflatex.
+08 Mar 2016 15:43:13.804 TRACE DirectiveExtractor - Directive found in line 2 with nomencl.
+08 Mar 2016 15:43:13.805 TRACE DirectiveExtractor - Directive found in line 3 with pdflatex.
+08 Mar 2016 15:43:13.806 TRACE DirectiveExtractor - Directive found in line 4 with pdflatex.
+08 Mar 2016 15:43:13.812 INFO  DirectiveParser - Parsing directives.
+08 Mar 2016 15:43:13.815 INFO  TaskDeployer - Deploying tasks into commands.
+08 Mar 2016 15:43:13.824 TRACE TaskDeployer - Task 'pdflatex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:43:14.144 TRACE TaskDeployer - Task 'nomencl' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:43:14.238 TRACE TaskDeployer - Task 'pdflatex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:43:14.256 TRACE TaskDeployer - Task 'pdflatex' found in '/usr/share/texlive/texmf-dist/scripts/arara/rules'.
+08 Mar 2016 15:43:14.264 INFO  CommandTrigger - Ready to run commands.
+08 Mar 2016 15:43:14.265 INFO  CommandTrigger - Running 'PDFLaTeX'.
+08 Mar 2016 15:43:14.267 TRACE CommandTrigger - Command: pdflatex      "nomenclature.tex"
+08 Mar 2016 15:43:14.708 TRACE CommandTrigger - Output logging:
+08 Mar 2016 15:43:14.709 TRACE CommandTrigger - This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian)
+ restricted \write18 enabled.
+entering extended mode
+(./nomenclature.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty)
+Writing nomenclature file nomenclature.nlo
+(./nomenclature.aux) (./nomenclature.toc)
+No file nomenclature.nls.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./nomenclature.aux) )</
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on nomenclature.pdf (1 page, 63118 bytes).
+Transcript written on nomenclature.log.
+
+08 Mar 2016 15:43:14.709 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
+08 Mar 2016 15:43:14.709 INFO  CommandTrigger - Running 'Nomencl'.
+08 Mar 2016 15:43:14.710 TRACE CommandTrigger - Command: makeindex  "nomenclature.nlo" -s "nomencl.ist" -o "nomenclature.nls"
+08 Mar 2016 15:43:14.924 TRACE CommandTrigger - Output logging:
+08 Mar 2016 15:43:14.924 TRACE CommandTrigger - This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+Scanning style file /usr/share/texlive/texmf-dist/makeindex/nomencl/nomencl.ist..........done (10 attributes redefined, 3 ignored).
+Scanning input file nomenclature.nlo....done (3 entries accepted, 0 rejected).
+Sorting entries....done (4 comparisons).
+Generating output file nomenclature.nls....done (11 lines written, 0 warnings).
+Output written in nomenclature.nls.
+Transcript written in nomenclature.ilg.
+
+08 Mar 2016 15:43:14.925 INFO  CommandTrigger - 'Nomencl' was successfully executed.
+08 Mar 2016 15:43:14.925 INFO  CommandTrigger - Running 'PDFLaTeX'.
+08 Mar 2016 15:43:14.925 TRACE CommandTrigger - Command: pdflatex      "nomenclature.tex"
+08 Mar 2016 15:43:15.229 TRACE CommandTrigger - Output logging:
+08 Mar 2016 15:43:15.229 TRACE CommandTrigger - This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian)
+ restricted \write18 enabled.
+entering extended mode
+(./nomenclature.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty)
+Writing nomenclature file nomenclature.nlo
+(./nomenclature.aux) (./nomenclature.toc) (./nomenclature.nls) [1{/var/lib/texm
+f/fonts/map/pdftex/updmap/pdftex.map}] (./nomenclature.aux) )</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmtt10.pfb>
+Output written on nomenclature.pdf (1 page, 73039 bytes).
+Transcript written on nomenclature.log.
+
+08 Mar 2016 15:43:15.230 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
+08 Mar 2016 15:43:15.230 INFO  CommandTrigger - Running 'PDFLaTeX'.
+08 Mar 2016 15:43:15.230 TRACE CommandTrigger - Command: pdflatex      "nomenclature.tex"
+08 Mar 2016 15:43:15.533 TRACE CommandTrigger - Output logging:
+08 Mar 2016 15:43:15.534 TRACE CommandTrigger - This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian)
+ restricted \write18 enabled.
+entering extended mode
+(./nomenclature.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty)
+Writing nomenclature file nomenclature.nlo
+(./nomenclature.aux) (./nomenclature.toc) (./nomenclature.nls) [1{/var/lib/texm
+f/fonts/map/pdftex/updmap/pdftex.map}] (./nomenclature.aux) )</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb>
+Output written on nomenclature.pdf (1 page, 84006 bytes).
+Transcript written on nomenclature.log.
+
+08 Mar 2016 15:43:15.534 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
+08 Mar 2016 15:43:15.534 INFO  CommandTrigger - All commands were successfully executed.
+08 Mar 2016 15:43:15.535 INFO  Arara - Done.

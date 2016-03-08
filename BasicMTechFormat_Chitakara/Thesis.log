@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.5)  7 MAR 2016 20:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.5)  8 MAR 2016 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -585,6 +585,11 @@ Package glossaries Info: Writing glossary file Thesis.glo on input line 24.
 \openout5 = `Thesis.acn'.
 
 Package glossaries Info: Writing glossary file Thesis.acn on input line 24.
+
+Package glossaries Warning: Deprecated command \glossarystyle.
+ I recommend you switch to \setglossarystyle unless you want to maintain backwa
+rd compatibility on input line 25.
+
 (/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen166
@@ -1074,7 +1079,7 @@ LaTeX Info: Redefining \nameref on input line 10.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 21.
 
-<./images/Chitkara.jpg, id=70, 120.45pt x 105.5142pt>
+<./images/Chitkara.jpg, id=71, 120.45pt x 105.5142pt>
 File: ./images/Chitkara.jpg Graphic file (type jpg)
 <use ./images/Chitkara.jpg>
 Package pdftex.def Info: ./images/Chitkara.jpg used on input line 21.
@@ -1230,12 +1235,25 @@ color pop
 \@gls@deffile=\write12
 \openout12 = `Thesis.glsdefs'.
 
-) (./Thesis.acr) (./FrontMatter/nomeclature.tex) (./Thesis.nls) (./authorpub.te
-x [6
+) (./Thesis.acr) (./FrontMatter/nomeclature.tex) (./Thesis.nls [6
 color push 0 g 0 G
 color pop
 
 
+
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+]) (./authorpub.tex [7
+color push 0 g 0 G
+color pop
 
 color push 0 g 0 G
 color pop
@@ -1251,7 +1269,7 @@ color pop
 ------------------------------------------------------------------------------
  tableofcontents
 ------------------------------------------------------------------------------
-[7
+[8
 color push 0 g 0 G
 color pop
 
@@ -1295,7 +1313,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--2
 \tf@toc=\write13
 \openout13 = `Thesis.toc'.
 
-[8
+[9
 color push 0 g 0 G
 color pop
 
@@ -1348,7 +1366,7 @@ Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
-<./images/HCutter640.png, id=147, 642.4pt x 481.8pt>
+<./images/HCutter640.png, id=154, 642.4pt x 481.8pt>
 File: ./images/HCutter640.png Graphic file (type png)
 <use ./images/HCutter640.png>
 Package pdftex.def Info: ./images/HCutter640.png used on input line 9.
@@ -1375,7 +1393,7 @@ color push 0 g 0 G
 color pop
 
 \@writefile{toc}{\contentsline {chapter}{\textit  {TABLE OF CONTENTS}}{1}{chapt
-er*.11}}
+er*.12}}
 
 
 
@@ -1479,7 +1497,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B002099E3ADB626711B5B528AED7760C;2329.
+(rerunfilecheck)             Checksum: 269ABCCED5CB17B8A25B96616D15A352;2330.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
@@ -1490,26 +1508,27 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 22579 strings out of 493304
- 360192 string characters out of 6139872
- 462085 words of memory out of 5000000
- 25564 multiletter control sequences out of 15000+600000
+ 22582 strings out of 493304
+ 360223 string characters out of 6139872
+ 461771 words of memory out of 5000000
+ 25565 multiletter control sequences out of 15000+600000
  13580 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 53i,11n,75p,10528b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,11n,75p,10522b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmti10.pfb>
-Output written on Thesis.pdf (15 pages, 952586 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb>
+Output written on Thesis.pdf (16 pages, 960708 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
  147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
