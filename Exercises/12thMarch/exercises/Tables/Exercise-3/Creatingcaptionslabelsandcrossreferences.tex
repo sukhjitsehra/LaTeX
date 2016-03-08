@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage{tabu}
+
+\title{Exercise - Creating captions, Labels and cross-references}
+\author{H.S.Rai, J. Singh and S.S.Sehra}
+\date{12th March, 2016}
+\begin{document}
+	\maketitle	
+	\section*{Tasks to be performed}
+	\begin{enumerate}	
+		\item Add captions to the inserted tables.
+		\item Use \textbackslash label and \textbackslash ref to use the tables in the text.
+	\end{enumerate}
+	\section*{Demonstration}
+		
+	%Referencing and captioning tables
+	The table \ref{table:1} is an example of   referenced \LaTeX\ elements.
+	
+	\begin{table}[h!]
+		\centering
+		\begin{tabular}{||c c c c||} 
+			\hline
+			Col1 & Col2 & Col2 & Col3 \\ 
+			\hline\hline
+			1 & 6 & 87837 & 787 \\ 
+			2 & 7 & 78 & 5415 \\
+			3 & 545 & 778 & 7507 \\
+			4 & 545 & 18744 & 7560 \\
+			5 & 88 & 788 & 6344 \\  
+			\hline
+		\end{tabular}
+		\caption{Table to test captions and labels}
+		\label{table:1}
+	\end{table}
+	%---------------------------------------------------------------------
+	
+	
+	
+	
+\end{document}
