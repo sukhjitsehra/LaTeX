@@ -262,7 +262,7 @@
         \@mkboth{
            \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}}
            \rule{48em}{0.5pt}\\[6pt]
-\hspace{2mm}\textbf{Contents}\hfill\textbf{Page No.}\\
+\textbf{Contents}\hfill\textbf{Page No.}\\
 \rule{48em}{0.5pt}
     \@starttoc{toc}
     \if@restonecol\twocolumn\fi
