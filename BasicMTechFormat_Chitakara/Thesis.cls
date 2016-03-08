@@ -261,9 +261,9 @@
     \chapter*{\centerline{\contentsname
         \@mkboth{
            \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}}
-           \rule{50em}{0.5pt}\\[6pt]
+           \rule{48em}{0.5pt}\\[6pt]
 \textbf{Contents}\hfill\textbf{Page No.}\\
-\rule{50em}{0.5pt}
+\rule{48em}{0.5pt}
     \@starttoc{toc}
     \if@restonecol\twocolumn\fi
    \cleardoublepage}
