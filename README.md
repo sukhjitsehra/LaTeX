@@ -1,4 +1,4 @@
-This for the information of the Participants of the Workshop to use the following to download the required LaTeX. Download the Pdf version of following content from LaTex_for_Beginners.
+This for the information of the Participants of the Workshop to use the following to download the required LaTeX. Download the Pdf version of the following content from LaTex_for_Beginners.
 
 LaTeX is a free software (under the terms of the LaTeX Project Public License). Before getting started to work typeset the document, we need  to get LaTeX distribution and LaTeX editor.
 
@@ -61,7 +61,7 @@ Proprietary/Shareware
 
 : Inlage, Scientific WorkPlace, WinEdt
 
-There are also general-purpose editors that add LaTeX -friendly options by means of plugins. For example the well-known editors emacs and vim have both a LaTeX extension.
+There are also general-purpose editors that add LaTeX -friendly options by means of plugins. For example, the well-known editors emacs and vim have both a LaTeX extension.
 
 Most of the editors are specific to the Operating. But we have chosen that is available for all operating systems and Open-source i.e. [**TeXstudio**](http://www.texstudio.org/).
 
@@ -80,19 +80,17 @@ Overleaf
 
 ShareLaTeX
 
-: It is a secure cloud-based LaTeX editor offering unlimited free project. Premium accounts are available for extra features such as version control and Dropbox integration.
+: It is a secure cloud-based LaTeX editor offering the unlimited free project. Premium accounts are available for extra features such as version control and Dropbox integration.
 
 Verbosus
 
-: It is a professional Online LaTeX Editor that supports collaboration with other users and is free to use. Merge conflicts can easily resolved by using a built-in merge tool that uses an implementation of the diff-algorithm to generate information required for a successful merge.
+: It is a professional Online LaTeX Editor that supports collaboration with other users and is free to use. Merge conflicts can be resolved easily by using a built-in merge tool that uses an implementation of the diff-algorithm to generate information required for a successful merge.
 
 Reference Manager - **JabRef**
 ==============================
 
-Reference management software is application used by researchers and
-authors to store, utilise bibliographic database. It always better to
-use reference management software providing convenient graphical
-interface such JabRef.
+Reference management software is an application used by researchers and
+authors to store, utilise bibliographic database. It is better to use reference management software, which provides a convenient graphical interface such JabRef.
 
 Installation
 ------------
@@ -138,4 +136,4 @@ The simplest way of installing JabRef on Windows is by downloading the
 Mac
 ---
 
-For Mac users OSX zip file available from our download page.
+For Mac users, OSX zip file available from our download page.
