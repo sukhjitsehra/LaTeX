@@ -85,3 +85,57 @@ ShareLaTeX
 Verbosus
 
 : It is a professional Online LaTeX Editor that supports collaboration with other users and is free to use. Merge conflicts can easily resolved by using a built-in merge tool that uses an implementation of the diff-algorithm to generate information required for a successful merge.
+
+Reference Manager - **JabRef**
+==============================
+
+Reference management software is application used by researchers and
+authors to store, utilise bibliographic database. It always better to
+use reference management software providing convenient graphical
+interface such JabRef.
+
+Installation
+------------
+
+### Installing Java
+
+Go to the Sun Java download page, download the “jre” version for your
+operating system and install it.
+
+### Linux
+
+For downloading the JabRef package visit the following link:
+
+     http://www.jabref.org/#downloads
+
+In case of Ubuntu, if you have enabled the universe repository, you can
+install Java by typing following command:
+
+    sudo apt-get install openjdk-8-jre
+
+and entering your password, or by installing the package openjdk-8-jre
+in Synaptic.
+
+Your Linux might offer JabRef through its repositories - e.g. Ubuntu
+offers JabRef in its universe repositories. After installing the
+application through the package manager, you can typically run it from
+the standard application menu If this is not the case for your distro,
+you need to download the file JabRef-X.X.jar (where X.X is the JabRef
+version you want) from our download page. To run it, open a terminal and
+type:
+
+    java -jar $DIR/JabRef-X.X.jar}
+
+where \$DIR is the directory where you placed the jar file, and
+JabRef-X.X.jar is the name of the jar file.
+
+Windows
+-------
+
+The simplest way of installing JabRef on Windows is by downloading the
+.exe installer. Simply run the installer, and it will install JabRef
+
+Mac
+---
+
+For Mac users OSX zip file available from our download page.
