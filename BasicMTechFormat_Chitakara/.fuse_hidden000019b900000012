@@ -9,23 +9,8 @@
 \providecommand\@istfilename[1]{}
 \@istfilename{Thesis.ist}
 \@glsorder{word}
-\@writefile{toc}{\contentsline {section}{\textit  {CANDIDATE'S DECLARATION}}{i}{chapter*.3}}
-\@writefile{toc}{\contentsline {section}{\textit  {ABSTRACT}}{ii}{chapter*.4}}
-\@writefile{toc}{\contentsline {section}{\textit  {ACKNOWLEDGEMENTS}}{iii}{chapter*.5}}
-\@writefile{toc}{\contentsline {section}{\textit  {LIST OF FIGURES}}{v}{chapter*.6}}
-\@writefile{toc}{\contentsline {section}{\textit  {LIST OF TABLES}}{vi}{chapter*.7}}
-\@writefile{toc}{\contentsline {section}{\textit  {ABBREVIATIONS}}{vi}{chapter*.9}}
-\@writefile{toc}{\contentsline {section}{\textit  {NOMENCLATURE}}{vii}{chapter*.10}}
-\citation{*}
-\bibdata{authorpublication}
-\bibcite{goossens93}{{1}{}{{}}{{}}}
-\bibcite{knuth79}{{2}{}{{}}{{}}}
-\bibcite{lamport94}{{3}{}{{}}{{}}}
-\bibstyle{plain}
-\@writefile{toc}{\contentsline {section}{\textit  {AUTHOR PUBLICATION}}{viii}{chapter*.11}}
-\@writefile{toc}{\contentsline {section}{\textit  {TABLE OF CONTENTS}}{viii}{chapter*.11}}
 \@setckpt{frontmatter}{
-\setcounter{page}{10}
+\setcounter{page}{9}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -54,9 +39,9 @@
 \setcounter{lstnumber}{1}
 \setcounter{Item}{0}
 \setcounter{Hfootnote}{0}
-\setcounter{bookmark@seq@number}{9}
+\setcounter{bookmark@seq@number}{0}
 \setcounter{dummy}{0}
-\setcounter{NAT@ctr}{3}
+\setcounter{NAT@ctr}{0}
 \setcounter{su@anzahl}{0}
 \setcounter{LT@tables}{0}
 \setcounter{LT@chunks}{0}

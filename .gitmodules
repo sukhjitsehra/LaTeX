@@ -1,0 +1,3 @@
+[submodule "exercises"]
+	path = exercises
+	url = https://sukhjitsehra@bitbucket.org/sukhjitsehra/workshopexercises.git

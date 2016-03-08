@@ -1,7 +1,9 @@
 \gdef \the@ipfilectr {@-1}
 \renewcommand *\addvspace [1]{}
+\addvspace {10\p@ }
 \gdef \the@ipfilectr {}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \relax }}{1}{figure.caption.15}
 \gdef \the@ipfilectr {@-2}
 \addvspace {10\p@ }
 \gdef \the@ipfilectr {}
