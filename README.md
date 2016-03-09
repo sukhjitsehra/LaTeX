@@ -52,7 +52,7 @@ operating system and install it.
 
 In case of Ubuntu, you can install JabRef by typing following command:
 
-    sudo apt-get install jabref //Check it ################
+    sudo apt-get install jabref 
 
 If this is not the case for your distro,
 you need to download the file JabRef-X.X.jar (where X.X is the JabRef
