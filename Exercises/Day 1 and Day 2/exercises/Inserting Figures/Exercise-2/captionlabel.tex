@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{graphicx} %package to manage images
+\title{Exercise - Creating captions, Labels and cross-references.}
+\author{H.S.Rai, J. Singh and S.S.Sehra}
+\date{12th March, 2016}
+\begin{document}
+	\maketitle	
+	\section*{Tasks to be performed}
+	\begin{enumerate}	
+		\item Add caption to the inserted figure
+		\item Use \textbackslash label and \textbackslash ref to use the figure in the text.
+	\end{enumerate}
+	\section*{Demonstration}
+	% graphicx package is used in the preamble of the document to insert figures
+	 Figure \ref{fig:gnelogo} is logo of Guru Nanak Dev Engineering College, Ludhiana
+\begin{figure}[h]
+\centering
+\includegraphics{../../images/gnelogo}
+\caption{GNDEC LOGO}
+\label{fig:gnelogo}
+\end{figure}
+\end{document}

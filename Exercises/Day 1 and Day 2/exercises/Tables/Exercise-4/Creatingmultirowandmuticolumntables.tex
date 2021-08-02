@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{tabu}
+
+\title{Exercise  - Creating multi-row and multi-column tables}
+\author{H.S.Rai, J. Singh and S.S.Sehra}
+\date{12th March, 2016}
+\begin{document}
+	\maketitle	
+	\section*{Tasks to be performed}
+	\begin{enumerate}	
+		\item Create multirow and multicolumn tables.
+	\end{enumerate}
+	\section*{Demonstration}
+	%package multirow is used in the preamble to create multirow and multicolumn tables.
+	% Multicolumn Table 
+	Table \ref{table:2} is the example of multicolumn table
+	\begin{table}[h]
+		\centering
+
+	\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+		\hline
+		\multicolumn{4}{|c|}{Country List} \\
+		\hline
+		Country Name     or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 Code&ISO numeric Code\\
+		\hline
+		Afghanistan   & AF    &AFG&   004\\
+		Aland Islands&   AX  & ALA   &248\\
+		Albania &AL & ALB&  008\\
+		Algeria    &DZ & DZA&  012\\
+		American Samoa&   AS  & ASM&016\\
+		Andorra& AD  & AND   &020\\
+		Angola& AO  & AGO&024\\
+		\hline
+		\end{tabular}
+		\caption{Multicolumn Table}
+		\label{table:2}
+			\end{table}
+			
+	% Multirow Table 
+	whereas	table \ref{table:3} is the example of multirow table
+			\begin{table}[h]
+				\centering
+			\begin{tabular}{ |c|c|c|c| } 
+		\hline
+		col1 & col2 & col3 \\
+		\hline
+		\multirow{3}{4em}{Multiple row} & cell2 & cell3 \\ 
+		& cell5 & cell6 \\ 
+		& cell8 & cell9 \\ 
+		\hline
+	\end{tabular}
+\caption{Multirow Table}
+\label{table:3}
+\end{table}
+
+\end{document}

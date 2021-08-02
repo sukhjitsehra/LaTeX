@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{tabu}
+
+\title{Exercise  - Creating tables in the document with variable and fixed width}
+\author{H.S.Rai, J. Singh and S.S.Sehra}
+\date{12th March, 2016}
+\begin{document}
+	\maketitle	
+	
+	\section*{Tasks to be performed}
+	\begin{enumerate}	
+		\item Create fixed width table student having columns as rollno, name, section and address.
+		\item Add few rows in the table.
+	\end{enumerate}
+	\section*{Demonstration}
+	\LaTeX\'s algorithms for formatting tables have a few shortcomings. One is that it will not automatically wrap text in cells, even if it overruns the width of the page. For columns that will contain text whose length exceeds the column's width, it is recommended that you use the p attribute and specify the desired width of the column (although it may take some trial-and-error to get the result you want).
+	Instead of p, use the m attribute to have the lines aligned toward the middle of the box or the b attribute to align along the bottom of the box. Below is minimum working example
+Without specifying width for last column:
+\begin{center}
+    \begin{tabular}{| l | l | l | l |}
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells 
+    across most of Scotland and Northern Ireland, 
+    but rain reaching the far northwest. \\ \hline
+    Wednesday & 10C & 21C & Rain will still linger for the morning. 
+    Conditions will improve by early afternoon and continue 
+    throughout the evening. \\
+    \hline
+    \end{tabular}
+\end{center}
+\newpage
+With width specified and with p,m,b- parameter of table environment:
+\begin{center}
+    \begin{tabular}{ | m{2cm} | b{1cm} | l | p{5cm} |}
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.  
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells 
+    across most of Scotland and Northern Ireland, 
+    but rain reaching the far northwest. \\ \hline
+    Wednesday & 10C & 21C & Rain will still linger for the morning. 
+    Conditions will improve by early afternoon and continue 
+    throughout the evening. \\
+    \hline
+    \end{tabular}
+\end{center}
+
+
+
+
+\end{document}
+
