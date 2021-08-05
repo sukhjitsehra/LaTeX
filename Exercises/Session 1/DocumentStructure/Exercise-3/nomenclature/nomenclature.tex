@@ -1,0 +1,27 @@
+% arara: pdflatex 
+% arara: nomencl
+% arara: pdflatex 
+% arara: pdflatex 
+
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage[intoc]{nomencl}
+\makenomenclature
+\nomenclature{$alpha$}{Alpha symbol}
+\nomenclature{$a$}{The number of angels per unit area}%
+\nomenclature{$\mu$}{The number of angels per needle point}%s
+
+
+\title{Exercise - Working Nomenclature}
+\author{Sukhjit Singh Sehra and Sumeet Kaur Sehra}
+\date{5th August, 2021}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\LaTeX\ package \verb|nomenclature| used to create the list of Symbols used in the document. 
+ 
+
+\printnomenclature
+\end{document}

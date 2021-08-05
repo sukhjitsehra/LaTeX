@@ -1,11 +1,11 @@
-The participants of the Workshop are encouraged to download following software, suitable for their Operating System.
+The students are encouraged to download from the following softwares, suitable for the operating system.
 
 LaTeX Distribution
 ------------------
 
-It is a set of  typesetting system which includes many packages to be used by the user. The LaTeX distribution has different name for different operating systems (Linux: TeX Live (cross-platform), Mac OS X: MacTeX and Windows: proTeXt/MikTeX).
+It is a set of typesetting system which includes many packages to be used by the user. The LaTeX distribution has different names for different operating systems (Linux: TeX Live (cross-platform), Mac OS X: MacTeX and Windows: proTeXt/MikTeX).
 
-Choosing your Copy
+Choosing your copy
 ------------------
 
 - If you’re new to TeX and LaTeX or just want an easy installation, get a full TeX distribution.
@@ -14,8 +14,7 @@ Following are some pointers to TeX distributions recommended.
 
 TeXLive
 
-: It is an easy way to get up and running with LaTeX. It provides a ready-to-run TeXsystem for most types of Unix, Mac OS X, and Windows, and includes all major TeX-related programs. It also includes a complete tree of fonts and macros, with support for many
-languages.
+: It is an easy way to get up and running with LaTeX. It provides a ready-to-run TeXsystem for most types of Unix, Mac OS X, and Windows, and includes all major TeX-related programs. It also includes a complete tree of fonts and macros, with support for many languages.
 
 Linux
 
@@ -32,13 +31,12 @@ Microsoft Windows
 TeXstudio: LaTeX Editor 
 -------------------------------
 
-The workshop will be conducted with the use a LaTeX Editor, which is available for all operating systems and is Open-source i.e. [**TeXstudio**](http://www.texstudio.org/).
+The sessions for LaTeX will be conducted with the use a LaTeX Editor, which is available for all operating systems and is Open-source i.e. [**TeXstudio**](http://www.texstudio.org/).
 
 JabRef: A Reference Manager
 ==============================
 
-Reference management software is an application used by researchers and
-authors to store, utilise bibliographic database. It is better to use reference management software, which provides a convenient graphical interface such JabRef.
+Reference management software is an application used by researchers andmauthors to store, utilise bibliographic database. It is better to use reference management software, which provides a convenient graphical interface such JabRef.
 
 Installation
 ------------
@@ -54,16 +52,14 @@ In case of Ubuntu, you can install JabRef by typing following command:
 
     sudo apt-get install jabref 
 
-If this is not the case for your distro,
-you need to download the file JabRef-X.X.jar (where X.X is the JabRef
-version you want) from http://www.jabref.org/#downloads . To run it, open a terminal and type:
+If this is not the case for your distro, you need to download the file JabRef-X.X.jar (where X.X is the JabRef version you want) from http://www.jabref.org/#downloads . To run it, open a terminal and type:
 
     java -jar $DIR/JabRef-X.X.jar
 
 where $DIR is the directory where you placed the jar file, and
 JabRef-X.X.jar is the name of the jar file.
 
-On Computers with Microsoft Windows OS 
+On computers with Microsoft Windows OS 
 -------
 
 The simplest way of installing JabRef on Microsoft Windows is by downloading the
