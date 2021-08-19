@@ -1,5 +1,5 @@
-\documentclass[a4paper,12pt,twoside]{article}
-\pagestyle{empty}
+\documentclass[a4paper,12pt,twoside]{book}
+\pagestyle{headings}
 
 \title{Exercise - Handling page headers and footer}
 \author{Sukhjit Singh Sehra and Sumeet Kaur Sehra}
@@ -12,7 +12,7 @@ Create a document that multiple pages with different page-styles.
 \section{Introduction}
 The information displayed in the footer and the header of a document depends on the page style currently active, these page styles are more notorious in the book document class. The command \textbackslash pagestyle{headings} sets the page style called headings to the current document. 
 \begin{verbatim}
-\documentclass[a4paper,12pt,twoside]{book}
+\documentclass[a4paper,12pt,twoside]{article}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \pagestyle{headings}
@@ -34,16 +34,16 @@ There are other three page styles:
 
 Sometimes is convenient to specify the page style only for the current page. For instance, to leave a intentionally blank page or to remove the header and footer from the current chapter page:
 \begin{verbatim}
-\chapter{Sample Chapter}
-\thispagestyle{empty}
- 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-}ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit es...
+
 \end{document}
 \end{verbatim} 
+ \chapter{Sample Chapter}
+ \thispagestyle{empty}
  
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+ eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+reprehenderit in voluptate velit es...
  
 \end{document}

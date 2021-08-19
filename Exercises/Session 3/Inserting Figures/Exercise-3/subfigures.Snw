@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{graphicx} %package to manage images
+\usepackage{subfigure}
+\usepackage{caption}
+\title{Exercise  - Subfigures.}
+\author{Sukhjit Singh Sehra and Sumeet Kaur Sehra}
+\date{5th August, 2021}
+\begin{document}
+	\maketitle
+		\begin{figure}
+	\centering
+	\begin{subfigure}{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../../images/gnelogo}
+		\caption{fig1}}
+		\label{fig:y equals x}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../../images/gnelogo}
+		\caption{fig2}
+		\label{fig:three sin x}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../../images/gnelogo}
+		\caption{$y=5/x$}
+		\label{fig:five over x}
+	\end{subfigure}
+	\caption{Three simple graphs}
+	\label{fig:three graphs}
+\end{figure}
+\end{document}

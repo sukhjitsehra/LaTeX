@@ -1,4 +1,4 @@
-\documentclass{report}
+ \documentclass{report}
 \usepackage{graphicx} %package to manage images
 \usepackage{hyperref}
 \graphicspath{ {images/} }
@@ -10,9 +10,17 @@
 \begin{document}
 \maketitle	
 \listoffigures
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../images/compass}
+	\caption{Compass}
+	\label{fig:compass}
+\end{figure}
+
 \section*{Tasks to be performed}
 \begin{enumerate}	
 \item My logo is in Fig. \ref{fig:gnelogo2}
+\item Figure \ref{fig:compass} presents a compass.
 \end{enumerate}
 \section*{Demonstration}
 	% graphicx package is used in the preamble of the document to insert figures
@@ -20,7 +28,6 @@
 \centering
 \includegraphics[width=0.7\textwidth]{../../images/gnelogo}
 \caption{New Image}
-
 \label{fig:gnelogo}
 \end{figure}
 \begin{figure}
